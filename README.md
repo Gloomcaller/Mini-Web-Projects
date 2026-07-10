@@ -1,6 +1,6 @@
 # Mini Web Projects
 
-16 bite-sized browser games and tools, all built with HTML, SCSS, and vanilla JavaScript.  
+18 bite-sized browser games and tools, all built with HTML, SCSS, and vanilla JavaScript.  
 No frameworks, no sign-ups, no installs. Just click and play.  
 Built for learning, tinkering, and having a bit of fun.
 
@@ -15,6 +15,8 @@ Built for learning, tinkering, and having a bit of fun.
 | [Finspan Scoreboard](projects/Finspan%20Scoreboard/) | A convenient scoreboard for tracking points in Finspan. |
 | [Frogger](projects/Frogger/) | Guide your frog across roads and rivers. Avoid cars and ride the logs. |
 | [Memory](projects/Memory/) | Find matching pairs of cards in this classic memory game. |
+| [Number Converter](projects/Number%20Converter/) | Convert numbers between Decimal, Roman, and Binary with copy buttons. |
+| [Pokedex](projects/Pokedex/) | Search for any Pokémon by name or ID and view stats, types, and sprite. |
 | [Rock Paper Scissors](projects/Rock%20Paper%20Scissors/) | Challenge the computer to a duel of wits. Best of luck. |
 | [Space Invaders](projects/Space%20Invaders/) | Defend Earth from waves of aliens with auto-fire and enemy attacks. |
 | [Stopwatch](projects/Stopwatch/) | A clean stopwatch with start, stop, and reset. |
