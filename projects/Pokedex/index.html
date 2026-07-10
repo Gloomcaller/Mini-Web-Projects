@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="media/favicon32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pokédex</h1>
+
+        <!-- Search area + autocomplete wrapper -->
+        <div class="search-area">
+            <div class="autocomplete-wrapper">
+                <input type="text" id="search-input" placeholder="Name or ID" autocomplete="off">
+                <ul id="suggestions" class="hidden"></ul>
+            </div>
+            <button id="search-button">Search</button>
+        </div>
+
+        <p id="message"></p>
+
+        <!-- Results -->
+        <div id="pokemon-info" class="hidden">
+            <!-- Sprite + navigation arrows -->
+            <div class="sprite-area">
+                <button class="nav-btn" id="prev-btn">
+                    <img src="media/prev.png" alt="Previous">
+                </button>
+                <div id="sprite-container">
+                    <img id="sprite" src="" alt="Pokémon sprite">
+                </div>
+                <button class="nav-btn" id="next-btn">
+                    <img src="media/next.png" alt="Next">
+                </button>
+            </div>
+
+            <!-- Name / ID + copy button -->
+            <div class="name-row">
+                <h2 id="pokemon-name"></h2>
+                <span id="pokemon-id"></span>
+                <button id="copy-name-btn" class="icon-btn" title="Copy name">
+                    <img src="media/copy.png" alt="Copy">
+                </button>
+            </div>
+
+            <!-- Shiny toggle -->
+            <button id="shiny-toggle" class="toggle-btn">Shiny</button>
+
+            <!-- Types -->
+            <div id="types"></div>
+
+            <!-- Stats grid -->
+            <div class="stats-grid">
+                <div class="stat"><span>Weight</span><strong id="weight"></strong></div>
+                <div class="stat"><span>Height</span><strong id="height"></strong></div>
+                <div class="stat"><span>HP</span><strong id="hp"></strong></div>
+                <div class="stat"><span>Attack</span><strong id="attack"></strong></div>
+                <div class="stat"><span>Defense</span><strong id="defense"></strong></div>
+                <div class="stat"><span>Sp. Atk</span><strong id="special-attack"></strong></div>
+                <div class="stat"><span>Sp. Def</span><strong id="special-defense"></strong></div>
+                <div class="stat"><span>Speed</span><strong id="speed"></strong></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

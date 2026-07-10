@@ -79,6 +79,16 @@
         ]
     },
     {
+        "name": "Pokedex",
+        "path": "projects/Pokedex/index.html",
+        "icon": "assets/icons/pokedex.png",
+        "description": "Search for any Pokémon by name or ID and view stats, types, and sprite.",
+        "images": [
+            "assets/preview/pokedex1.png",
+            "assets/preview/pokedex2.png"
+        ]
+    },
+    {
         "name": "Rock Paper Scissors",
         "path": "projects/Rock Paper Scissors/index.html",
         "icon": "assets/icons/rock-paper-scissors.png",
