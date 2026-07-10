@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #1a1a2e url('./media/background.jpg') center / cover fixed;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    max-width: 550px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+    padding: 35px 25px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Title */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    background: linear-gradient(135deg, #3498db, #e67e22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Input area */
+.input-area {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 12px 16px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    font-size: 1.1rem;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-area input:focus {
+    border-color: #e67e22;
+    box-shadow: 0 0 10px rgba(230, 126, 34, 0.3);
+}
+
+.input-area button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background: #e67e22;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.input-area button:hover {
+    background: #d35400;
+    box-shadow: 0 8px 20px rgba(230, 126, 34, 0.3);
+}
+
+/* Results grid */
+.results-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/* Result cards */
+.result-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.2s;
+}
+
+.result-card.decimal .card-value {
+    color: #e67e22;
+}
+
+.result-card.roman .card-value {
+    color: #3498db;
+}
+
+.result-card.binary .card-value {
+    color: #2ecc71;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.copy-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.copy-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.copy-btn.copied {
+    background: #2ecc71;
+}
+
+.card-value {
+    font-size: 2rem;
+    font-weight: bold;
+    word-break: break-all;
+    min-height: 2.5rem;
+}
+
+.roman .card-value {
+    color: #3498db;
+}
+
+.binary .card-value {
+    color: #2ecc71;
+}
+
+/* Message */
+#message {
+    font-size: 0.9rem;
+    min-height: 1.2rem;
+    color: #e74c3c;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .container {
+        padding: 20px 15px;
+    }
+
+    .input-area {
+        flex-direction: column;
+    }
+
+    .card-value {
+        font-size: 1.5rem;
+    }
+}

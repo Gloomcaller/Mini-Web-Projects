@@ -19,6 +19,16 @@
         ]
     },
     {
+        "name": "Number Converter",
+        "path": "projects/Number Converter/index.html",
+        "icon": "assets/icons/numberconverter.png",
+        "description": "Convert numbers between Decimal, Roman, and Binary with copy buttons.",
+        "images": [
+            "assets/preview/numberconverter1.png",
+            "assets/preview/numberconverter2.png"
+        ]
+    },
+    {
         "name": "Connect Four",
         "path": "projects/Connect Four/index.html",
         "icon": "assets/icons/connect-four.png",

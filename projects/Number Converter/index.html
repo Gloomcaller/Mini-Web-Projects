@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="media/favicon32.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Number Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Number Converter</h1>
+
+        <div class="input-area">
+            <input type="number" id="numberInput" placeholder="Enter a number" min="1" max="20000">
+            <button id="convertBtn">Convert</button>
+        </div>
+
+        <div class="results-grid" id="resultsGrid">
+            <!-- Decimal -->
+            <div class="result-card decimal">
+                <div class="card-header">
+                    <span class="card-title">Decimal</span>
+                    <button class="copy-btn" data-target="decimalOutput">Copy</button>
+                </div>
+                <div class="card-value" id="decimalOutput"></div>
+            </div>
+
+            <!-- Roman -->
+            <div class="result-card roman">
+                <div class="card-header">
+                    <span class="card-title">Roman</span>
+                    <button class="copy-btn" data-target="romanOutput">Copy</button>
+                </div>
+                <div class="card-value" id="romanOutput"></div>
+            </div>
+
+            <!-- Binary -->
+            <div class="result-card binary">
+                <div class="card-header">
+                    <span class="card-title">Binary</span>
+                    <button class="copy-btn" data-target="binaryOutput">Copy</button>
+                </div>
+                <div class="card-value" id="binaryOutput"></div>
+            </div>
+        </div>
+
+        <!-- Error / info message -->
+        <p id="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
