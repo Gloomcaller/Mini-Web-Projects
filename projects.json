@@ -9,6 +9,16 @@
         ]
     },
     {
+        "name": "Caesar Cipher",
+        "path": "projects/Caesar Cipher/index.html",
+        "icon": "assets/icons/caesarcipher.png",
+        "description": "Encrypt and decrypt messages using the classic Caesar Cipher. Choose a shift, type your text, and get instant results with copy support.",
+        "images": [
+            "assets/preview/caesarcipher1.png",
+            "assets/preview/caesarcipher2.png"
+        ]
+    },
+    {
         "name": "Calculator",
         "path": "projects/Calculator/index.html",
         "icon": "assets/icons/calculator.png",
