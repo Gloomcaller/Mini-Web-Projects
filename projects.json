@@ -99,6 +99,16 @@
         ]
     },
     {
+        "name": "Pokemon Wishlist",
+        "path": "projects/Pokemon Wishlist/index.html",
+        "icon": "assets/icons/pogowishlist.png",
+        "description": "A shared wishlist for tracking which Pokemon to catch and trade.",
+        "images": [
+            "assets/preview/pogowishlist1.png",
+            "assets/preview/pogowishlist2.jpg"
+        ]
+    },
+    {
         "name": "Rock Paper Scissors",
         "path": "projects/Rock Paper Scissors/index.html",
         "icon": "assets/icons/rock-paper-scissors.png",

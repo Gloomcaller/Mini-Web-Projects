@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon GO Wishlist</title>
+  <link rel="icon" type="image/png" href="media/favicon32.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Pokémon GO Wishlist</h1>
+    <p class="subtitle">Who needs what, at a glance.</p>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Search Pokémon by name...">
+      <select id="filterPerson">
+        <option value="all">Everyone</option>
+      </select>
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th data-sort="id" class="sortable">ID <span class="sort-icon"></span></th>
+            <th>Sprite</th>
+            <th data-sort="name" class="sortable">Name <span class="sort-icon"></span></th>
+            <th>Type</th>
+            <th>Needed For</th>
+            <th>Needed By</th>
+          </tr>
+        </thead>
+        <tbody id="pokemonTableBody">
+          <!-- Rows are injected here by script.js -->
+        </tbody>
+      </table>
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>No Pokémon match your search/filter.</p>
+  </div>
+
+  <footer class="site-footer">
+    Made by Gloomcaller · 2026 · sprites from
+    <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener">PokeAPI</a> ·
+    Pokédex data from
+    <a href="https://pokemongohub.net/" target="_blank" rel="noopener">Pokémon GO Hub</a>
+  </footer>
+
+  <!-- data.js must load before script.js since script.js reads pokemonData -->
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
