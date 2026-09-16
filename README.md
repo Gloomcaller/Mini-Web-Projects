@@ -17,6 +17,7 @@ Built for learning, tinkering, and having a bit of fun.
 | [Memory](projects/Memory/) | Find matching pairs of cards in this classic memory game. |
 | [Number Converter](projects/Number%20Converter/) | Convert numbers between Decimal, Roman, and Binary with copy buttons. |
 | [Pokedex](projects/Pokedex/) | Search for any Pokémon by name or ID and view stats, types, and sprite. |
+| [Pokemon Wishlist](projects/Pokemon%20Wishlist/) | Track which Pokémon to catch and trade. |
 | [Rock Paper Scissors](projects/Rock%20Paper%20Scissors/) | Challenge the computer to a duel of wits. Best of luck. |
 | [Space Invaders](projects/Space%20Invaders/) | Defend Earth from waves of aliens with auto-fire and enemy attacks. |
 | [Stopwatch](projects/Stopwatch/) | A clean stopwatch with start, stop, and reset. |
