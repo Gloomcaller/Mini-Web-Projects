@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: #1a1a2e url("./media/background.jpg") center / cover no-repeat;
+  background-color: #1a1a2e;
   color: #fff;
   padding: 22px;
   min-height: 100vh;
@@ -19,6 +19,16 @@ body {
   flex-direction: column;
   gap: 22px;
   overflow-x: hidden;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("./media/background.jpg") center / cover no-repeat;
+  z-index: -1;
+  pointer-events: none;
 }
 
 /* Glass card */
