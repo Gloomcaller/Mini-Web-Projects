@@ -4,6 +4,20 @@ const PLAYERS = [
   { name: "Stanveres", tagClass: "tag-stanveres" }
 ];
 
+// Display order
+const TAG_ORDER = ["Pokedex", "PvP", "Raider", "Mega", "Lucky", "Cool"];
+
+function sortTags(tags) {
+  return [...tags].sort((a, b) => {
+    const rankA = TAG_ORDER.indexOf(a);
+    const rankB = TAG_ORDER.indexOf(b);
+    const safeA = rankA === -1 ? TAG_ORDER.length : rankA;
+    const safeB = rankB === -1 ? TAG_ORDER.length : rankB;
+    if (safeA !== safeB) return safeA - safeB;
+    return a.localeCompare(b);
+  });
+}
+
 // State
 let sortState = { column: "id", ascending: true };
 
@@ -68,7 +82,7 @@ function renderTable() {
       .map((t) => `<span class="type-badge ${typeClass(t)}">${t}</span>`)
       .join("");
 
-    const tagsHtml = p.tags
+    const tagsHtml = sortTags(p.tags)
       .map((t) => `<span class="${tagClass(t)}">${t}</span>`)
       .join("");
 
