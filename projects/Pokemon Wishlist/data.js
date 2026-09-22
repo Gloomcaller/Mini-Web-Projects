@@ -155,7 +155,7 @@ const pokemonData = [
     name: "Solgaleo",
     type: ["Psychic", "Steel"],
     tags: ["Pokedex", "PvP"],
-    neededBy: ["Gloomcaller", "Stanveres"]
+    neededBy: ["Stanveres"]
   },
   {
     id: 794,
@@ -296,5 +296,166 @@ const pokemonData = [
     type: ["Grass", "Dragon"],
     tags: ["Pokedex"],
     neededBy: ["Gloomcaller", "Stanveres"]
+  },
+  {
+    id: 717,
+    name: "Yveltal",
+    type: ["Dark", "Flying"],
+    tags: ["Pokedex", "Raider"],
+    neededBy: ["Gloomcaller", "Stanveres"]
+  },
+  {
+    id: 13,
+    name: "Weedle",
+    type: ["Bug", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 14,
+    name: "Kakuna",
+    type: ["Bug", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 15,
+    name: "Beedrill",
+    type: ["Bug", "Poison"],
+    tags: ["Lucky", "Mega", "Raider"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 627,
+    name: "Rufflet",
+    type: ["Normal", "Flying"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 628,
+    name: "Braviary",
+    type: ["Normal", "Flying"],
+    tags: ["Lucky", "Raider"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 396,
+    name: "Starly",
+    type: ["Normal", "Flying"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 397,
+    name: "Staravia",
+    type: ["Normal", "Flying"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 397,
+    name: "Staraptor",
+    type: ["Normal", "Flying"],
+    tags: ["Lucky", "Raider", "Mega"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 491,
+    name: "Darkrai",
+    type: ["Dark"],
+    tags: ["Raider"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 447,
+    name: "Riolu",
+    type: ["Fighting"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 448,
+    name: "Lucario",
+    type: ["Fighting"],
+    tags: ["Raider", "Lucky", "Mega"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 639,
+    name: "Terrakion",
+    type: ["Rock", "Fighting"],
+    tags: ["Raider"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 406,
+    name: "Budew",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 315,
+    name: "Roselia",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 407,
+    name: "Budew",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky", "Raider"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 69,
+    name: "Bellsprout",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 70,
+    name: "Weepinbell",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 71,
+    name: "Victreebel",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky", "Raider", "Mega"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 71,
+    name: "Victreebel",
+    type: ["Grass", "Poison"],
+    tags: ["Lucky", "Raider", "Mega"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 221,
+    name: "Hisuian Qwilfish",
+    type: ["Dark", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 221,
+    name: "Qwilfish",
+    type: ["Dark", "Poison"],
+    tags: ["Lucky"],
+    neededBy: ["Gloomcaller"]
+  },
+  {
+    id: 904,
+    name: "Overqwil",
+    type: ["Dark", "Poison"],
+    tags: ["Lucky", "Raider"],
+    neededBy: ["Gloomcaller"]
   }
 ];
