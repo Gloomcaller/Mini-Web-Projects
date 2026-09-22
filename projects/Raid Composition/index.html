@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raid Composition</title>
+  <link rel="icon" type="image/png" href="media/favicon32.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="dashboard-header">
+    <div class="header-top">
+      <h1>Raid Composition</h1>
+      <p class="subtitle">Since PokemonGO limits the number of raid parites to 10, I need to track my raiders somehow...
+      </p>
+    </div>
+
+    <div class="stats-row">
+      <div class="stat-card">
+        <span class="stat-label">Overall Completion</span>
+        <span class="stat-value" id="statOverall">—</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Pokémon Ready</span>
+        <span class="stat-value" id="statOwned">—</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Types Fully Stocked</span>
+        <span class="stat-value" id="statTypesReady">—</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Needs the Most Work</span>
+        <span class="stat-value" id="statNeedsWork">—</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="type-grid" id="typeGrid">
+    <!-- Injected by js -->
+  </main>
+
+  <footer class="site-footer">
+    Made by Gloomcaller &middot; 2026 &middot; sprites from
+    <a href="https://github.com/PokeAPI/sprites" target="_blank" rel="noopener">PokeAPI</a> &middot;
+    Pokédex data from
+    <a href="https://pokemongohub.net/" target="_blank" rel="noopener">Pokémon GO Hub</a>
+  </footer>
+
+  <!-- data.js must load before script.js -->
+  <script src="data.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

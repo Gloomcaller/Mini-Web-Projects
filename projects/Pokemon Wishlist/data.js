@@ -32,7 +32,6 @@ const pokemonData = [
   { id: 628, name: "Braviary", type: ["Normal", "Flying"], tags: ["Lucky", "Raider"], neededBy: ["Gloomcaller"] },
   { id: 636, name: "Larvesta", type: ["Bug", "Fire"], tags: ["Lucky"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 637, name: "Volcarona", type: ["Bug", "Fire"], tags: ["Pokedex", "Raider", "Lucky"], neededBy: ["Gloomcaller", "Stanveres"] },
-  { id: 639, name: "Terrakion", type: ["Rock", "Fighting"], tags: ["Raider"], neededBy: ["Gloomcaller"] },
   { id: 701, name: "Hawlucha", type: ["Fighting", "Flying"], tags: ["Pokedex", "PvP"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 717, name: "Yveltal", type: ["Dark", "Flying"], tags: ["Pokedex", "Raider"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 749, name: "Mudbray", type: ["Ground"], tags: ["Pokedex"], neededBy: ["Gloomcaller", "Stanveres"] },

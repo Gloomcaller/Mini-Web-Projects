@@ -120,6 +120,16 @@
         ]
     },
     {
+        "name": "Raid Composition",
+        "path": "projects/Raid Composition/index.html",
+        "icon": "assets/icons/raidcomp.png",
+        "description": "PokémonGO raid squads tracker for every type on one dashboard, with completion stats and owned/missing visual states.",
+        "images": [
+            "assets/preview/raidcomp1.png",
+            "assets/preview/raidcomp2.jpg"
+        ]
+    },
+    {
         "name": "Space Invaders",
         "path": "projects/Space Invaders/index.html",
         "icon": "assets/icons/space-invaders.png",

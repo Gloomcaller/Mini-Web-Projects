@@ -1,6 +1,6 @@
 # Mini Web Projects
 
-18 bite-sized browser games and tools, all built with HTML, SCSS, and vanilla JavaScript.  
+Bite-sized browser games and tools, all built with HTML, SCSS, and vanilla JavaScript.  
 No frameworks, no sign-ups, no installs. Just click and play.  
 Built for learning, tinkering, and having a bit of fun.
 
@@ -18,6 +18,7 @@ Built for learning, tinkering, and having a bit of fun.
 | [Number Converter](projects/Number%20Converter/) | Convert numbers between Decimal, Roman, and Binary with copy buttons. |
 | [Pokedex](projects/Pokedex/) | Search for any Pokémon by name or ID and view stats, types, and sprite. |
 | [Pokemon Wishlist](projects/Pokemon%20Wishlist/) | Track which Pokémon to catch and trade. |
+| [Raid Composition](projects/Raid%20Composition/) | PokémonGO raid squads tracker for every type on one dashboard. |
 | [Rock Paper Scissors](projects/Rock%20Paper%20Scissors/) | Challenge the computer to a duel of wits. Best of luck. |
 | [Space Invaders](projects/Space%20Invaders/) | Defend Earth from waves of aliens with auto-fire and enemy attacks. |
 | [Stopwatch](projects/Stopwatch/) | A clean stopwatch with start, stop, and reset. |
