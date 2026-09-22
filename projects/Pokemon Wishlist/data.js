@@ -431,21 +431,7 @@ const pokemonData = [
     neededBy: ["Gloomcaller"]
   },
   {
-    id: 71,
-    name: "Victreebel",
-    type: ["Grass", "Poison"],
-    tags: ["Lucky", "Raider", "Mega"],
-    neededBy: ["Gloomcaller"]
-  },
-  {
-    id: 221,
-    name: "Hisuian Qwilfish",
-    type: ["Dark", "Poison"],
-    tags: ["Lucky"],
-    neededBy: ["Gloomcaller"]
-  },
-  {
-    id: 221,
+    id: 211,
     name: "Qwilfish",
     type: ["Dark", "Poison"],
     tags: ["Lucky"],
