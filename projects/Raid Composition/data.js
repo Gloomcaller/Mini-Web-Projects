@@ -14,11 +14,11 @@ const raidTeams = [
     type: "Water",
     team: [
       { id: 382, name: "Kyogre", have: true },
+      { id: 382, name: "Kyogre", have: true },
       { id: 818, name: "Inteleon", have: true },
       { id: 914, name: "Quaquaval", have: true },
       { id: 730, name: "Primarina", have: true },
-      { id: 658, name: "Greninja", have: true },
-      { id: 260, name: "Swampert", have: true }
+      { id: 658, name: "Greninja", have: true }
     ]
   },
   {
@@ -46,7 +46,7 @@ const raidTeams = [
   {
     type: "Ice",
     team: [
-      { id: 10023, name: "White Kyurem", have: false },
+      { id: 998, name: "Baxcalibur", have: true },
       { id: 10177, name: "Galarian Darmanitan", have: true },
       { id: 10177, name: "Galarian Darmanitan", have: true },
       { id: 473, name: "Mamoswine", have: true },
@@ -157,7 +157,7 @@ const raidTeams = [
     type: "Dark",
     team: [
       { id: 248, name: "Tyranitar", have: true },
-      { id: 491, name: "Darkrai", have: false },
+      { id: 635, name: "Hydreigon", have: true },
       { id: 635, name: "Hydreigon", have: true },
       { id: 983, name: "Kingambit", have: false },
       { id: 727, name: "Incineroar", have: true },
@@ -183,7 +183,7 @@ const raidTeams = [
       { id: 858, name: "Hatterene", have: false },
       { id: 730, name: "Primarina", have: false },
       { id: 700, name: "Sylveon", have: true },
-      { id: 210, name: "Granbull", have: true }
+      { id: 716, name: "Xerneas", have: false }
     ]
   }
 ];
