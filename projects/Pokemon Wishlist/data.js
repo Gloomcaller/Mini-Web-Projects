@@ -32,7 +32,7 @@ const pokemonData = [
   { id: 636, name: "Larvesta", type: ["Bug", "Fire"], tags: ["Lucky"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 637, name: "Volcarona", type: ["Bug", "Fire"], tags: ["Pokedex", "Raider", "Lucky"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 701, name: "Hawlucha", type: ["Fighting", "Flying"], tags: ["Pokedex", "PvP"], neededBy: ["Gloomcaller", "Stanveres"] },
-  { id: 717, name: "Yveltal", type: ["Dark", "Flying"], tags: ["Pokedex", "Raider"], neededBy: ["Gloomcaller", "Stanveres"] },
+  { id: 717, name: "Yveltal", type: ["Dark", "Flying"], tags: ["Pokedex", "Raider"], neededBy: ["Stanveres"] },
   { id: 749, name: "Mudbray", type: ["Ground"], tags: ["Pokedex"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 750, name: "Mudsdale", type: ["Ground"], tags: ["Pokedex"], neededBy: ["Gloomcaller", "Stanveres"] },
   { id: 764, name: "Comfey", type: ["Fairy"], tags: ["Pokedex"], neededBy: ["Gloomcaller", "Stanveres"] },

@@ -91,7 +91,7 @@ const raidTeams = [
     type: "Flying",
     team: [
       { id: 384, name: "Rayquaza", have: true },
-      { id: 717, name: "Yveltal", have: false },
+      { id: 717, name: "Yveltal", have: true },
       { id: 146, name: "Moltres", have: true },
       { id: 733, name: "Toucannon", have: true },
       { id: 398, name: "Staraptor", have: false },
