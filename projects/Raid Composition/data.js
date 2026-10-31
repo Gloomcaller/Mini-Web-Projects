@@ -84,7 +84,7 @@ const raidTeams = [
       { id: 445, name: "Garchomp", have: true },
       { id: 530, name: "Excadrill", have: true },
       { id: 464, name: "Rhyperior", have: true },
-      { id: 553, name: "Krookodile", have: false }
+      { id: 553, name: "Krookodile", have: true }
     ]
   },
   {
@@ -113,11 +113,11 @@ const raidTeams = [
     type: "Bug",
     team: [
       { id: 15, name: "Beedrill", have: false },
-      { id: 637, name: "Volcarona", have: false },
+      { id: 637, name: "Volcarona", have: true },
       { id: 212, name: "Scizor", have: true },
       { id: 127, name: "Pinsir", have: true },
       { id: 738, name: "Vikavolt", have: true },
-      { id: 873, name: "Frosmoth", have: false }
+      { id: 873, name: "Frosmoth", have: true }
     ]
   },
   {
@@ -180,8 +180,8 @@ const raidTeams = [
     team: [
       { id: 888, name: "Zacian", have: true },
       { id: 468, name: "Togekiss", have: true },
-      { id: 858, name: "Hatterene", have: false },
-      { id: 730, name: "Primarina", have: false },
+      { id: 858, name: "Hatterene", have: true },
+      { id: 730, name: "Primarina", have: true },
       { id: 700, name: "Sylveon", have: true },
       { id: 716, name: "Xerneas", have: false }
     ]
